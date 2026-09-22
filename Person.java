@@ -5,6 +5,13 @@ public class Person {
     private int age;
     private String email;
 
+    // initializes person attributes
+    public Person(String name, int age, String email) {
+        this.name = name;
+        this.age = age;
+        this.email = email;
+    }
+
     public String getName() {
         return name;
     }

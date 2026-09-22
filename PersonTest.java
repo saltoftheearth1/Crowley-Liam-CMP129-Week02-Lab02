@@ -1,15 +1,12 @@
 public class PersonTest {
     public static void main(String[] args) {
-        Person person1 = new Person();
-        Person person2 = new Person();
+        Person person1 = new Person("Maria Johnson", 28, "maria@example.com");
+        Person person2 = new Person("David Smith", 35, "david@example.com");
 
-        person1.setName("Maria Johnson");
-        person1.setAge(28);
-        person1.setEmail("maria@example.com");
-
-        person2.setName("David Smith");
-        person2.setAge(35);
-        person2.setEmail("david@example.com");
+        // tests setters
+        person1.setName("Maria Davis");
+        person1.setAge(29);
+        person1.setEmail("maria.davis@example.com");
 
         // tests getters
         System.out.println(person1.getName());
